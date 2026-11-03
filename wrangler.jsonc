@@ -15,8 +15,6 @@
       "migrations_dir": "migrations"
     }
   ],
-  // Da attivare quando il dominio mittente è configurato in Cloudflare Email Service.
-  // "send_email": [{ "name": "EMAIL" }],
   "vars": {
     "APP_ORIGIN": "https://SOSTITUIRE.example.com",
     "ENTRA_TENANT_ID": "PLACEHOLDER_TENANT_ID",
@@ -26,8 +24,10 @@
     "ADMIN_EMAILS": "nadia.festini.cappello@chromavis.com",
     "INTERNAL_DOMAINS": "chromavis.com",
     "TURNSTILE_SITE_KEY": "PLACEHOLDER_TURNSTILE_SITE_KEY",
+    // Casella aziendale da cui parte la posta e app Entra dedicata all'invio (Microsoft Graph).
     "EMAIL_FROM": "noreply@SOSTITUIRE.example.com",
-    "EMAIL_PROVIDER": "cloudflare"
+    "EMAIL_PROVIDER": "graph",
+    "GRAPH_CLIENT_ID": "PLACEHOLDER_GRAPH_CLIENT_ID"
   }
-  // Secret da impostare con "wrangler secret put": ENTRA_CLIENT_SECRET, OTP_PEPPER, TURNSTILE_SECRET_KEY
+  // Secret da impostare su Cloudflare: ENTRA_CLIENT_SECRET, GRAPH_CLIENT_SECRET, OTP_PEPPER, TURNSTILE_SECRET_KEY
 }

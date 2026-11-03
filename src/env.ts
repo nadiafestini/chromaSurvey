@@ -1,11 +1,6 @@
-export interface EmailBinding {
-  send(message: { to: string; from: string; subject: string; text: string; html?: string }): Promise<unknown>;
-}
-
 export interface Env {
   DB: D1Database;
   ASSETS: Fetcher;
-  EMAIL?: EmailBinding;
   APP_ORIGIN: string;
   ENTRA_TENANT_ID: string;
   ENTRA_CLIENT_ID: string;
@@ -17,6 +12,8 @@ export interface Env {
   TURNSTILE_SECRET_KEY?: string;
   EMAIL_FROM: string;
   EMAIL_PROVIDER: string;
+  GRAPH_CLIENT_ID?: string;
+  GRAPH_CLIENT_SECRET?: string;
   OTP_PEPPER?: string;
   DEV_MODE?: string;
 }

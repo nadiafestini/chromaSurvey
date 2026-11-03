@@ -38,3 +38,13 @@ Quando il gruppo (ad esempio `itchr_mai_users`) è pronto:
 Il ruolo si ricalcola a ogni login: chi esce dal gruppo perde il ruolo admin al login successivo, al massimo dopo 8 ore (durata della sessione).
 
 Chi entra con Microsoft senza essere nel gruppo è un utente normale.
+
+## 5. Invio dei codici OTP (Microsoft Graph)
+Si usa un'app separata da quella del login, nello stesso tenant, così il secret della posta si può ruotare senza toccare l'accesso.
+
+1. Crea o scegli la **casella mittente**, anche condivisa: il suo indirizzo va in `EMAIL_FROM`.
+2. Nell'app della posta, da **Overview** copia **Application (client) ID** in `GRAPH_CLIENT_ID`.
+3. **Certificates & secrets** → **New client secret**: salva il **Value** su Cloudflare come secret `GRAPH_CLIENT_SECRET` e annota la scadenza. Alla scadenza i codici OTP smettono di partire.
+4. Autorizza l'app a inviare **solo da quella casella**. `Mail.Send` di tipo **Application**, se concesso in **API permissions** con il consenso admin, permette di scrivere da qualsiasi casella del tenant. Microsoft indica per questo [RBAC for Applications di Exchange Online](https://learn.microsoft.com/en-us/exchange/permissions-exo/application-rbac): i permessi di Entra si sommano a quelli RBAC, quindi il consenso a livello di tenant va rimosso.
+5. Verifica che le regole di posta del tenant permettano di scrivere a destinatari esterni: i codici OTP vanno ai clienti.
+6. Prova l'accesso con un indirizzo esterno e controlla che l'invio da un'altra casella venga rifiutato.

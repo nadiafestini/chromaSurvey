@@ -31,10 +31,12 @@ Se `APP_ORIGIN` è sbagliato, tutti i moduli rispondono 403 e il login Microsoft
 3. Conserva la **Secret key** per il passo 6.
 
 ## 5. Email dei codici
-1. **Email Service** → aggiungi il dominio mittente e completa SPF e DKIM.
-2. In `wrangler.jsonc` togli il commento a `"send_email": [{ "name": "EMAIL" }]` e imposta `EMAIL_FROM`.
+I codici partono da una casella aziendale con Microsoft Graph, non da Cloudflare.
 
-Secondo la documentazione di Cloudflare, l'invio a indirizzi qualunque richiede il piano **Workers Paid**, e il servizio è in beta pubblica. Con "qualunque email" come regola di accesso è un requisito: verificare i limiti di invio sul piano scelto. Per cambiare provider si modifica solo `src/email/sender.ts`.
+1. Prepara l'app per la posta e la casella come indicato in `docs/GUIDA_ENTRA.md`, sezione 5.
+2. In `wrangler.jsonc` imposta `GRAPH_CLIENT_ID` con il client ID di quell'app ed `EMAIL_FROM` con l'indirizzo della casella.
+
+Per cambiare provider si modifica solo `src/email/sender.ts`.
 
 ## 6. Secret
 Worker `chromasurvey` → **Settings** → **Variables and Secrets** → **Add** → tipo **Secret**:
@@ -43,12 +45,13 @@ Worker `chromasurvey` → **Settings** → **Variables and Secrets** → **Add**
 |---|---|
 | `OTP_PEPPER` | Stringa casuale lunga, da generare e non riutilizzare |
 | `TURNSTILE_SECRET_KEY` | Dal passo 4 |
-| `ENTRA_CLIENT_SECRET` | Da `docs/GUIDA_ENTRA.md` |
+| `ENTRA_CLIENT_SECRET` | App del login, da `docs/GUIDA_ENTRA.md` |
+| `GRAPH_CLIENT_SECRET` | App della posta, da `docs/GUIDA_ENTRA.md` |
 
 ## 7. Verifica dopo il deploy
 1. Apri il sito: compare il login.
 2. Da terminale: `curl -I https://<dominio>/login`. Devono esserci `Content-Security-Policy`, `Permissions-Policy`, `Referrer-Policy`, `X-Content-Type-Options`, `X-Frame-Options`, `Strict-Transport-Security`.
-3. Prova il codice via email con un indirizzo esterno.
+3. Prova il codice via email con un indirizzo esterno. Se non arriva, la pagina non lo mostra: nei log del Worker cerca `Invio OTP non riuscito:`.
 4. Prova Microsoft con un admin e con un non admin.
 
 ## 8. Importare il pilota (una sola volta)

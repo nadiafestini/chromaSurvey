@@ -1,6 +1,6 @@
 # ChromaSurvey
 
-Sito di questionari per il personale Chromavis (Microsoft SSO) e i clienti esterni (OTP via email). TypeScript, Cloudflare Workers, Hono con pagine lato server, D1. Repo: `nadiafestini/chromaSurvey`. Il deploy su Cloudflare lo fa il responsabile dell'utente (`docs/GUIDA_CLOUDFLARE.md`).
+Sito di questionari per il personale Chromavis (Microsoft SSO) e i clienti esterni (OTP via email, inviata con Microsoft Graph). TypeScript, Cloudflare Workers, Hono con pagine lato server, D1. Repo: `nadiafestini/chromaSurvey`. Il deploy su Cloudflare lo fa il responsabile dell'utente (`docs/GUIDA_CLOUDFLARE.md`).
 
 Sul server Node è portable: `C:\Users\claude_svc\tools\node`, da aggiungere al PATH.
 
