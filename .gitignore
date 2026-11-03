@@ -1,0 +1,17 @@
+node_modules/
+.wrangler/
+dist/
+.dev.vars
+.dev.vars.*
+*.log
+
+# Dati personali e file di input: mai nel repo
+*.xlsx
+*.docx
+*.zip
+immagine*.png
+/LOGO bianco.png
+/Proposta Survey 1 - *.md
+/privacy consent.txt
+/import/
+.shots/

@@ -1,0 +1,83 @@
+{
+  "_nota": "PLACEHOLDER: testi derivati da 'Descrizione clusters.docx' e riformulati per l'utente. Italiano in bozza, da validare. Sostituibile senza toccare il codice. I codici e i nomi dei cluster vengono dal JSON del classificatore.",
+  "isPlaceholder": true,
+  "clusters": {
+    "BTP": {
+      "tagline": { "en": "Make-up is your playground.", "it": "Il make-up è il tuo terreno di gioco." },
+      "approach": {
+        "en": ["Make-up is a passion and a way to express your creativity.", "You are curious and love trying new things, and you never feel lost in the beauty market.", "You like to experiment and browse for new products.", "You take care of yourself, and you feel it shows in your outer beauty."],
+        "it": ["Il make-up è una passione e un modo per esprimere la tua creatività.", "Sei curiosa/o, ami provare cose nuove e non ti senti mai disorientata/o dal mercato beauty.", "Ti piace sperimentare e cercare nuovi prodotti.", "Ti prendi cura di te e senti che si riflette sulla tua bellezza esteriore."]
+      },
+      "drivers": {
+        "en": ["What is hot on social media and brands by influencers.", "New, original and innovative products.", "Appealing finishes and shades, and attractive packaging.", "Versatility and long-lasting results.", "Hybrid formulas that merge skincare and cosmetics."],
+        "it": ["Ciò che è di tendenza sui social e i brand degli influencer.", "Prodotti nuovi, originali e innovativi.", "Finish e colori accattivanti, packaging attraente.", "Versatilità e lunga tenuta.", "Formule ibride che uniscono skincare e cosmetica."]
+      }
+    },
+    "BEE": {
+      "tagline": { "en": "Beauty with values.", "it": "Bellezza con dei valori." },
+      "approach": {
+        "en": ["Make-up is a passion and a way to express your creativity.", "Your beauty routine is a daily ritual.", "You are curious and love trying new things.", "You pay attention to health and well-being, and to the story behind a brand."],
+        "it": ["Il make-up è una passione e un modo per esprimere la tua creatività.", "La tua beauty routine è un rituale quotidiano.", "Sei curiosa/o e ami provare cose nuove.", "Fai attenzione alla salute e al benessere, e alla storia che c’è dietro un brand."]
+      },
+      "drivers": {
+        "en": ["The values a brand stands for, such as cruelty-free, vegan, transparency and inclusiveness.", "Sustainability and where a product is made.", "Clean formulas, active ingredients and clinical tests.", "New, original products with attractive packaging."],
+        "it": ["I valori di un brand, come cruelty-free, vegan, trasparenza e inclusività.", "La sostenibilità e il luogo di produzione.", "Formule clean, ingredienti attivi e test clinici.", "Prodotti nuovi e originali con un packaging attraente."]
+      }
+    },
+    "ESS": {
+      "tagline": { "en": "Simple, comfortable, done.", "it": "Semplice, comodo, fatto." },
+      "approach": {
+        "en": ["You keep the time you spend on make-up to a minimum.", "Make-up helps you feel better and correct small imperfections.", "The quantity of beauty products on the market can feel overwhelming."],
+        "it": ["Dedichi al make-up il tempo minimo necessario.", "Il make-up ti aiuta a sentirti meglio e a correggere piccole imperfezioni.", "La quantità di prodotti beauty sul mercato può disorientarti."]
+      },
+      "drivers": {
+        "en": ["Basic, affordable products.", "What you know suits you and your skin.", "Comfort, versatility and multi-function."],
+        "it": ["Prodotti basic e convenienti.", "Ciò che sai che è adatto a te e alla tua pelle.", "Comfort, versatilità e multifunzione."]
+      }
+    },
+    "SOL": {
+      "tagline": { "en": "A product for every need.", "it": "Un prodotto per ogni esigenza." },
+      "approach": {
+        "en": ["Beauty helps you correct imperfections and solve specific problems.", "When you are comfortable with a product or brand, you tend to stay with it."],
+        "it": ["La bellezza ti aiuta a correggere le imperfezioni e a risolvere problemi specifici.", "Quando ti trovi bene con un prodotto o un brand, tendi a restargli fedele."]
+      },
+      "drivers": {
+        "en": ["You look for a new product to meet a specific need.", "Performance is what matters most.", "Comfort on the skin and active ingredients.", "Easy application, versatility and multi-use.", "Reviews from other consumers."],
+        "it": ["Cerchi un nuovo prodotto per rispondere a un’esigenza precisa.", "Quello che conta di più è la performance.", "Comfort sulla pelle e ingredienti attivi.", "Facilità d’applicazione, versatilità e multiuso.", "Le recensioni di altri consumatori."]
+      }
+    },
+    "HER": {
+      "tagline": { "en": "Only the best will do.", "it": "Solo il meglio." },
+      "approach": {
+        "en": ["Make-up is a passion.", "Your beauty routine is a daily ritual, and a way to feel beautiful and look perfect in every situation.", "You care about your image."],
+        "it": ["Il make-up è una passione.", "La tua beauty routine è un rituale quotidiano e un modo per sentirti bella/o e apparire perfetta/o in ogni situazione.", "Tieni alla tua immagine."]
+      },
+      "drivers": {
+        "en": ["Luxury and high-end brands, which you see as synonymous with quality.", "You do not switch often, and you value historic brands.", "Performance is what matters most.", "You look for a new product to meet a specific need."],
+        "it": ["Brand di lusso e di alta gamma, che per te sono sinonimo di qualità.", "Non cambi spesso e dai valore ai brand storici.", "Quello che conta di più è la performance.", "Cerchi un nuovo prodotto per rispondere a un’esigenza precisa."]
+      }
+    },
+    "MSC": {
+      "tagline": { "en": "Science meets tradition.", "it": "Dove la scienza incontra la tradizione." },
+      "approach": {
+        "en": ["Your beauty routine is a daily ritual, a habit and a way to take care of yourself."],
+        "it": ["La tua beauty routine è un rituale quotidiano, un’abitudine e un modo per prenderti cura di te."]
+      },
+      "drivers": {
+        "en": ["Ingredients from botany and traditional medicine.", "Products that combine science and tradition.", "Clean and botanical ingredients.", "Products that respect your skin, backed by clinical tests.", "A brand’s history and values, its environmental impact and where it makes its products."],
+        "it": ["Ingredienti dalla botanica e dalla medicina tradizionale.", "Prodotti che uniscono scienza e tradizione.", "Ingredienti clean e botanici.", "Prodotti che rispettano la pelle, con test clinici a supporto.", "La storia e i valori del brand, l’impatto ambientale e il luogo di produzione."]
+      }
+    },
+    "MEM": {
+      "tagline": { "en": "Your own, very personal beauty.", "it": "La tua bellezza, molto personale." },
+      "approach": {
+        "en": ["You have a very personal approach to beauty: it is not a question of image.", "You pay attention to health and well-being.", "You take care of yourself, and you feel it shows in your outer beauty."],
+        "it": ["Hai un approccio molto personale alla bellezza: non è una questione di immagine.", "Fai attenzione alla salute e al benessere.", "Ti prendi cura di te e senti che si riflette sulla tua bellezza esteriore."]
+      },
+      "drivers": {
+        "en": ["You stay with the products and brands you feel comfortable with.", "Botanical and traditional ingredients, clean and easy to apply.", "You invest time in finding what suits you best.", "Basic products, with room for unique colours and effects."],
+        "it": ["Resti fedele ai prodotti e ai brand con cui ti trovi bene.", "Ingredienti botanici e tradizionali, clean e facili da applicare.", "Dedichi tempo a trovare ciò che è più adatto a te.", "Prodotti basic, con spazio per colori ed effetti unici."]
+      }
+    }
+  }
+}

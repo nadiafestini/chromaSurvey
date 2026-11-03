@@ -1,0 +1,52 @@
+{
+  "_nota": "PLACEHOLDER: da 'Descrizione clusters.docx', con i refusi evidenti corretti. Solo per l'admin: non importare mai questo file nelle pagine utente.",
+  "BTP": {
+    "approach": ["Heavy users and buyers. Spend a lot.", "Makeup is a passion and a way to express their own creativity.", "Curious, engaged, love to try new things.", "Do not feel overwhelmed in the beauty market.", "They also pay a certain amount of attention to the image and use makeup to improve it.", "They take care of themselves (sport, yoga, nutrition, etc.) and they think it also reflects on their external beauty.", "They like to experiment and browse for new products."],
+    "drivers": ["Hot on social media.", "Attracted by influencers' brands.", "New, original and innovative products.", "Appealing finishes and shades.", "Attractive packaging.", "Versatility & long-lasting.", "Hybrid formulas that merge skincare and cosmetics.", "NO: price, made in, clean."],
+    "features": ["Textures, finishes and colours in line with micro trends (e.g. Mermaid-core).", "Extreme payoff, unique colours and effects.", "Hyper versatile formulas that can be applied on face, eye and lips, and that allow users to easily create a wide range of looks.", "Hybrid finishes (e.g. lipstick formula with the glossy finish of a lip gloss).", "Attractive storytelling that elevates texture and finish.", "On-the-go formats.", "New formats and delivery systems.", "Product blacklist: low."],
+    "demographics": "56% of respondents are below 44 years-old.",
+    "market": { "consumers": "19%", "expense": "29%", "annual": "€415 per person" }
+  },
+  "BEE": {
+    "approach": ["Heavy users and buyers. Spend a lot.", "Makeup is a passion and a way to express their own creativity.", "Curious, engaged, love to try new things.", "They perceive the beauty routine as a daily ritual.", "Attracted to ingredients from the world of botany or traditional medicine.", "Attentive to health and well-being.", "They tend to consider historic and luxury brands to be valuable. The story (and motivations) behind the brand."],
+    "drivers": ["New, original and innovative products.", "Popular products.", "Attractive packaging.", "The values supported by the brand (e.g. cruelty-free, vegan, transparency, inclusiveness).", "Sustainability.", "Clean formulas and active ingredients. Clinical tests.", "Made in."],
+    "features": ["Hybrid formulas that combine the best of skincare and makeup.", "Hyper versatile formulas that can be applied on face, eye and lips, and that allow users to easily create a wide range of looks.", "Attractive storytelling on ingredients/sustainability.", "Natural ingredients.", "Eye-catching packaging.", "Product blacklist strictness: medium to high."],
+    "demographics": "34.3% of respondents are below 34 years-old.",
+    "market": { "consumers": "13%", "expense": "19%", "annual": "€375 per person" }
+  },
+  "ESS": {
+    "approach": ["Minimum time to makeup.", "They buy little with a low average use.", "Spend little.", "They perceive makeup as a tool to feel more beautiful, improve their image, and help correcting imperfections.", "They feel overwhelmed by the quantity and variety of beauty products on the market."],
+    "drivers": ["Basic and inexpensive products.", "They pay attention to what they think suits them and their skin.", "They look for comfort, versatility and multi-function."],
+    "features": [],
+    "demographics": "Distributed fairly evenly across age groups.",
+    "market": { "consumers": "29%", "expense": "16%", "annual": "€145 per person" }
+  },
+  "SOL": {
+    "approach": ["They perceive beauty as a help to correct imperfections and solve specific problems.", "They tend to not change the products/brands they feel comfortable with."],
+    "drivers": ["When they look for a new product, it is usually to meet a specific need.", "Attracted to basic products that meet a specific function.", "What matters most is the performance.", "They seek products that feel comfortable on the skin.", "They look for active ingredients.", "Attracted to easy to apply, versatility and multi-use claims.", "NO: natural ingredients, environmental impact, original/unique products.", "They usually check product reviews from other consumers."],
+    "features": ["Hybrid formulas that efficiently merge makeup with skincare delivering visible benefits in both short and long terms.", "Active ingredients.", "Formulas suitable for sensitive skin.", "3-in-1/2-in-1 products that combine more finishes and can be applied on face, eyes and lips.", "Easy-to-use textures and formats.", "Products that target specific imperfections (such as visible pores, oily/dry skin, fine lines, dark circles, hyperpigmentation, short lashes etc.).", "Hero ingredients."],
+    "demographics": "Distributed fairly evenly across age groups.",
+    "market": { "consumers": "10%", "expense": "10%", "annual": "€245 per person" }
+  },
+  "HER": {
+    "approach": ["Heavy users and buyers. Spend a lot.", "Makeup is a passion.", "They perceive the beauty routine as a daily ritual, and a tool to feel more beautiful and appear perfect in every situation. They care about their image."],
+    "drivers": ["Attracted by luxury and high-end brands. They perceive them as synonymous with quality.", "They do not switch often and tend to consider historic and luxury brands to be valuable.", "What matters most in a product is its performance.", "When they look for a new product, it is usually to meet a specific need.", "NO: price, environmental impact."],
+    "features": ["Extreme payoff.", "Refined packaging.", "Skin-care/makeup hybrids.", "Couture sensoriality.", "Innovation in formulas.", "Hybrid finish (e.g. lipstick formula with the glossy finish of a lip gloss).", "Products with specific function, e.g. lip plumping, lash lifting, pore blurring.", "Attractive storytelling on ingredients, finishes and textures in line with trends to justify price/quality.", "Very strict blacklist on product ingredients."],
+    "demographics": "The majority of respondents are between 25-54 years-old.",
+    "market": { "consumers": "10%", "expense": "11%", "annual": "€315 per person" }
+  },
+  "MSC": {
+    "approach": ["They perceive the beauty routine as a daily ritual and a way to take care of themselves or a habit."],
+    "drivers": ["Attracted to ingredients from the world of botany or traditional medicine.", "Attracted to products that combine science and tradition.", "They look for clean and botanical ingredients.", "Invest time in looking for products that respect the skin. Clinical tests.", "Pay attention to the history and values of the brand.", "Environmental impact.", "Made in."],
+    "features": ["Formulas infused with botanicals as they perceive them to be 'cleaner' and gentler on the skin.", "Hybrid formulas that efficiently merge makeup with skincare combining science with tradition (e.g. face products infused with botanical ingredients used in TCM/East Asian traditions, and biotech ingredients).", "Sustainable formula/packaging.", "Clean.", "Product blacklist strictness: medium to high."],
+    "demographics": "Distributed fairly evenly across age groups.",
+    "market": { "consumers": "16%", "expense": "13%", "annual": "€225 per person" }
+  },
+  "MEM": {
+    "approach": ["Average spending. Do not purchase often.", "They have a very personal approach to beauty (either a way to express themselves or a social custom or a daily ritual). It is not a question of image.", "Attentive to health and well-being.", "Take care of themselves (sport, yoga, nutrition, etc.) and think it also reflects on their external beauty."],
+    "drivers": ["They tend to not change the products/brands they feel comfortable with.", "Attracted to ingredients from the world of botany or traditional medicine.", "They look for clean ingredients and ease of application.", "Invest time in looking for products that are most suitable for them.", "They look for basic products but are also attracted to unique colors and effects.", "NO: history and values of the brand, environmental impact, price, active ingredients."],
+    "features": ["Formulas infused with botanicals and traditional ingredients used in India, East Asia and South Asia.", "Formulas suitable for sensitive skin.", "Easy-to-use textures and formats.", "Formulas with specific functions (e.g. lash lifting, reduce pore dimension, even skin tone).", "Unique colours and effects.", "Clean.", "Product blacklist strictness: medium to high."],
+    "demographics": "Almost 40% of respondents are between 45-54 years-old.",
+    "market": { "consumers": "3%", "expense": "2%", "annual": "€225 per person" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_nota": "Cambiando 'version' tutti gli utenti devono confermare di nuovo. Quando il testo è definitivo, impostare isPlaceholder a false. Il testo è solo in inglese.",
+  "version": "placeholder-1",
+  "isPlaceholder": true,
+  "noticeTitle": "Privacy Notice - Consumer Testing Platform",
+  "notice": [
+    "[PLACEHOLDER] The full Privacy Notice provided by Legal will be published here.",
+    "[PLACEHOLDER] Data controller, purposes, legal basis, retention and data subject rights."
+  ],
+  "consent": "I confirm that I have read and understood this Privacy Notice concerning the Consumer Testing Platform and that I voluntarily agree to participate in the initiative. The selection of this box confirms acknowledgement of the Privacy Notice and the participant’s voluntary decision to take part in the project. It does not constitute consent to the processing of personal data pursuant to Article 6(1)(a) GDPR, as the processing is carried out on the legal basis described in the Privacy Notice.",
+  "legalNotes": [
+    "[PLACEHOLDER] Legal notes provided by Legal will be published here."
+  ]
+}

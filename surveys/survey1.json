@@ -1,0 +1,1096 @@
+{
+  "id": "cluster-segmentation",
+  "version": "1.0",
+  "title": {
+    "en": "Cluster segmentation",
+    "it": "Cluster segmentation"
+  },
+  "sections": [
+    {
+      "id": "about",
+      "title": {
+        "en": "About you",
+        "it": "Su di te"
+      },
+      "questions": [
+        {
+          "id": "Q2",
+          "type": "text",
+          "text": {
+            "en": "Name and surname",
+            "it": "Nome e cognome"
+          }
+        },
+        {
+          "id": "Q3",
+          "type": "single",
+          "text": {
+            "en": "Please indicate your exact age",
+            "it": "Indica la tua età"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Under 16 y.o",
+              "it": "Meno di 16 anni"
+            },
+            {
+              "code": 2,
+              "en": "16-24",
+              "it": "16–24"
+            },
+            {
+              "code": 3,
+              "en": "25-34",
+              "it": "25–34"
+            },
+            {
+              "code": 4,
+              "en": "35-44",
+              "it": "35–44"
+            },
+            {
+              "code": 5,
+              "en": "45-54",
+              "it": "45–54"
+            },
+            {
+              "code": 6,
+              "en": "55-65",
+              "it": "55–65"
+            },
+            {
+              "code": 7,
+              "en": "More than 65 y.o.",
+              "it": "Più di 65 anni"
+            }
+          ]
+        },
+        {
+          "id": "Q4",
+          "type": "single",
+          "text": {
+            "en": "Where do you currently live?",
+            "it": "Dove vivi attualmente?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Southern Europe – Italy, Spain, Portugal, Greece, Malta, Cyprus, San Marino, Vatican City",
+              "it": "Europa meridionale – Italia, Spagna, Portogallo, Grecia, Malta, Cipro, San Marino, Città del Vaticano"
+            },
+            {
+              "code": 2,
+              "en": "Western Europe – France, Belgium, Netherlands, Luxembourg, Monaco",
+              "it": "Europa occidentale – Francia, Belgio, Paesi Bassi, Lussemburgo, Monaco"
+            },
+            {
+              "code": 3,
+              "en": "Central & Northern Europe – Germany, Austria, Switzerland, Denmark, Sweden, Norway, Finland, Iceland, Ireland, UK, Liechtenstein",
+              "it": "Europa centrale e settentrionale – Germania, Austria, Svizzera, Danimarca, Svezia, Norvegia, Finlandia, Islanda, Irlanda, Regno Unito, Liechtenstein"
+            },
+            {
+              "code": 4,
+              "en": "Eastern Europe & Balkans – Poland, Czech Republic, Slovakia, Hungary, Romania, Bulgaria, Croatia, Slovenia, Serbia, Bosnia and Herzegovina, Montenegro, Albania, North Macedonia, Moldova, Ukraine, Belarus, Russia, etc.",
+              "it": "Europa orientale e Balcani – Polonia, Repubblica Ceca, Slovacchia, Ungheria, Romania, Bulgaria, Croazia, Slovenia, Serbia, Bosnia ed Erzegovina, Montenegro, Albania, Macedonia del Nord, Moldavia, Ucraina, Bielorussia, Russia, ecc."
+            },
+            {
+              "code": 5,
+              "en": "North America – USA, Canada",
+              "it": "Nord America – Stati Uniti, Canada"
+            },
+            {
+              "code": 6,
+              "en": "Latin America & Caribbean – Mexico, Central America, South America and Caribbean countries",
+              "it": "America Latina e Caraibi – Messico, America centrale, Sud America e paesi caraibici"
+            },
+            {
+              "code": 7,
+              "en": "Middle East – UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman, Israel, Jordan, Lebanon, Iran, Iraq, Yemen, etc.",
+              "it": "Medio Oriente – Emirati Arabi Uniti, Arabia Saudita, Qatar, Kuwait, Bahrein, Oman, Israele, Giordania, Libano, Iran, Iraq, Yemen, ecc."
+            },
+            {
+              "code": 8,
+              "en": "North Africa – Morocco, Algeria, Tunisia, Libya, Egypt",
+              "it": "Nord Africa – Marocco, Algeria, Tunisia, Libia, Egitto"
+            },
+            {
+              "code": 9,
+              "en": "Sub-Saharan Africa – South Africa, Nigeria, Ghana, Kenya, Ethiopia, Tanzania, Angola, Senegal, etc.",
+              "it": "Africa subsahariana – Sudafrica, Nigeria, Ghana, Kenya, Etiopia, Tanzania, Angola, Senegal, ecc."
+            },
+            {
+              "code": 10,
+              "en": "East Asia – China, Hong Kong, Taiwan, Japan, Korea, Mongolia",
+              "it": "Asia orientale – Cina, Hong Kong, Taiwan, Giappone, Corea, Mongolia"
+            },
+            {
+              "code": 11,
+              "en": "South & Southeast Asia – India, Pakistan, Bangladesh, Sri Lanka, Thailand, Vietnam, Indonesia, Malaysia, Philippines, Singapore, Cambodia, Myanmar, etc.",
+              "it": "Asia meridionale e sud-orientale – India, Pakistan, Bangladesh, Sri Lanka, Thailandia, Vietnam, Indonesia, Malesia, Filippine, Singapore, Cambogia, Myanmar, ecc."
+            },
+            {
+              "code": 12,
+              "en": "Oceania & Pacific – Australia, New Zealand, Fiji, Samoa, Papua New Guinea, etc.",
+              "it": "Oceania e Pacifico – Australia, Nuova Zelanda, Figi, Samoa, Papua Nuova Guinea, ecc."
+            }
+          ]
+        },
+        {
+          "id": "Q7",
+          "type": "single",
+          "text": {
+            "en": "What is the highest level of education you have completed?",
+            "it": "Qual è il titolo di studio più alto che hai conseguito?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Primary Education",
+              "it": "Istruzione primaria"
+            },
+            {
+              "code": 2,
+              "en": "Lower Secondary Education / Middle School",
+              "it": "Istruzione secondaria inferiore / scuola media"
+            },
+            {
+              "code": 3,
+              "en": "Upper Secondary Education / High School Diploma",
+              "it": "Istruzione secondaria superiore / diploma di scuola superiore"
+            },
+            {
+              "code": 4,
+              "en": "Vocational / Technical Qualification",
+              "it": "Qualifica professionale / tecnica"
+            },
+            {
+              "code": 5,
+              "en": "Bachelor's Degree",
+              "it": "Laurea triennale"
+            },
+            {
+              "code": 6,
+              "en": "Master's Degree",
+              "it": "Laurea magistrale / master"
+            },
+            {
+              "code": 7,
+              "en": "Doctorate / PhD",
+              "it": "Dottorato / PhD"
+            }
+          ]
+        },
+        {
+          "id": "Q8",
+          "type": "single",
+          "text": {
+            "en": "Which of the following best describes your current professional situation?",
+            "it": "Quale delle seguenti opzioni descrive meglio la tua situazione professionale attuale?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Makeup Artist",
+              "it": "Make-up artist"
+            },
+            {
+              "code": 2,
+              "en": "Beauty Content Creator / Influencer",
+              "it": "Beauty content creator / Influencer"
+            },
+            {
+              "code": 3,
+              "en": "NPD / Marketing Professional in the Cosmetics Industry",
+              "it": "NPD / Marketing nel settore cosmetico"
+            },
+            {
+              "code": 4,
+              "en": "Innovation / R&D Professional in the Cosmetics Industry",
+              "it": "Innovazione / R&D nel settore cosmetico"
+            },
+            {
+              "code": 5,
+              "en": "Other Beauty / Cosmetics Professional",
+              "it": "Altra professione nel settore beauty / cosmetico"
+            },
+            {
+              "code": 6,
+              "en": "Retail / Sales / Service Worker",
+              "it": "Retail / vendite / servizi"
+            },
+            {
+              "code": 7,
+              "en": "Skilled Trade Worker / Craftsperson",
+              "it": "Lavoro specializzato / artigianato"
+            },
+            {
+              "code": 8,
+              "en": "Professional / Specialist (e.g. doctor, lawyer, engineer, teacher)",
+              "it": "Libera professione / specialista (ad es. medico, avvocato, ingegnere, insegnante)"
+            },
+            {
+              "code": 9,
+              "en": "Manager / Executive",
+              "it": "Manager / dirigente"
+            },
+            {
+              "code": 10,
+              "en": "Entrepreneur / Business Owner",
+              "it": "Imprenditrice/ore / titolare d’azienda"
+            },
+            {
+              "code": 11,
+              "en": "Homemaker / Stay-at-home Parent",
+              "it": "Casalinga/o / genitore a tempo pieno"
+            },
+            {
+              "code": 12,
+              "en": "Student",
+              "it": "Studentessa/studente"
+            },
+            {
+              "code": 13,
+              "en": "Retired",
+              "it": "In pensione"
+            },
+            {
+              "code": 14,
+              "en": "Not Currently Working",
+              "it": "Attualmente non lavoro"
+            },
+            {
+              "code": 15,
+              "en": "Other",
+              "it": "Altro"
+            },
+            {
+              "code": 16,
+              "en": "Prefer Not to Say",
+              "it": "Preferisco non rispondere"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habits",
+      "title": {
+        "en": "Your make-up habits",
+        "it": "Le tue abitudini"
+      },
+      "questions": [
+        {
+          "id": "Q9",
+          "type": "single",
+          "text": {
+            "en": "How often do you wear make-up?",
+            "it": "Con quale frequenza ti trucchi?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Every day",
+              "it": "Tutti i giorni"
+            },
+            {
+              "code": 2,
+              "en": "5–6 days a week",
+              "it": "5–6 giorni a settimana"
+            },
+            {
+              "code": 3,
+              "en": "3–4 days a week",
+              "it": "3–4 giorni a settimana"
+            },
+            {
+              "code": 4,
+              "en": "1–2 days a week",
+              "it": "1–2 giorni a settimana"
+            },
+            {
+              "code": 5,
+              "en": "Less than once a week",
+              "it": "Meno di una volta a settimana"
+            },
+            {
+              "code": 6,
+              "en": "Only on special occasions",
+              "it": "Solo in occasioni speciali"
+            },
+            {
+              "code": 7,
+              "en": "Never",
+              "it": "Mai"
+            }
+          ]
+        },
+        {
+          "id": "Q10",
+          "type": "single",
+          "text": {
+            "en": "How often do you usually buy make-up products during the year?",
+            "it": "Quante volte all’anno acquisti di solito prodotti make-up?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Once a year or less",
+              "it": "Una volta all’anno o meno"
+            },
+            {
+              "code": 2,
+              "en": "2-3 times a year",
+              "it": "2–3 volte all’anno"
+            },
+            {
+              "code": 3,
+              "en": "4 to 6 times a year",
+              "it": "Da 4 a 6 volte all’anno"
+            },
+            {
+              "code": 4,
+              "en": "6-10 times a year",
+              "it": "6–10 volte all’anno"
+            },
+            {
+              "code": 5,
+              "en": "Once a month or more",
+              "it": "Una volta al mese o più"
+            }
+          ]
+        },
+        {
+          "id": "Q11",
+          "type": "single",
+          "text": {
+            "en": "How much on average do you spend per year on make-up products?",
+            "it": "Quanto spendi in media all’anno in prodotti make-up?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Less than €/$100",
+              "it": "Meno di 100 €/$"
+            },
+            {
+              "code": 2,
+              "en": "€/$100–300",
+              "it": "100–300 €/$"
+            },
+            {
+              "code": 3,
+              "en": "€/$300–500",
+              "it": "300–500 €/$"
+            },
+            {
+              "code": 4,
+              "en": "€/$500–1,000",
+              "it": "500–1.000 €/$"
+            },
+            {
+              "code": 5,
+              "en": "More than €/$1,000",
+              "it": "Più di 1.000 €/$"
+            }
+          ]
+        },
+        {
+          "id": "Q12",
+          "type": "multi",
+          "text": {
+            "en": "Select the answer(s) that best suit you. For me make up mainly represents:",
+            "it": "Seleziona la risposta o le risposte che ti descrivono meglio. Per me il make-up rappresenta soprattutto:"
+          },
+          "noneCode": 11,
+          "options": [
+            {
+              "code": 1,
+              "en": "A way to express myself and my creativity",
+              "it": "Un modo per esprimere me stessa/o e la mia creatività"
+            },
+            {
+              "code": 2,
+              "en": "A passion",
+              "it": "Una passione"
+            },
+            {
+              "code": 3,
+              "en": "A social custom that I could do without",
+              "it": "Un’abitudine sociale di cui potrei fare a meno"
+            },
+            {
+              "code": 4,
+              "en": "Help to correct imperfections/solve specific problems",
+              "it": "Un aiuto per correggere le imperfezioni/risolvere problemi specifici"
+            },
+            {
+              "code": 5,
+              "en": "A tool to feel more beautiful and/or more confident",
+              "it": "Uno strumento per sentirmi più bella/o e/o più sicura/o di me"
+            },
+            {
+              "code": 6,
+              "en": "A habit",
+              "it": "Un’abitudine"
+            },
+            {
+              "code": 7,
+              "en": "A tool to appear perfect in every situation",
+              "it": "Uno strumento per apparire perfetta/o in ogni situazione"
+            },
+            {
+              "code": 8,
+              "en": "A daily ritual that I am fond of",
+              "it": "Un rituale quotidiano a cui sono affezionata/o"
+            },
+            {
+              "code": 9,
+              "en": "A way to take care of myself",
+              "it": "Un modo per prendermi cura di me"
+            },
+            {
+              "code": 10,
+              "en": "A tool to improve the image that others have of me",
+              "it": "Uno strumento per migliorare l’immagine che gli altri hanno di me"
+            },
+            {
+              "code": 11,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ],
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "attitudes",
+      "title": {
+        "en": "Your attitudes",
+        "it": "I tuoi atteggiamenti"
+      },
+      "questions": [
+        {
+          "id": "Q13",
+          "type": "grid",
+          "text": {
+            "en": "Which of the following phrases reflect you most? Express a degree of agreement with the following statements:",
+            "it": "Quanto ti rispecchiano le seguenti affermazioni? Indica il tuo grado di accordo con ciascuna:"
+          },
+          "scale": [
+            {
+              "code": 1,
+              "en": "Strongly agree",
+              "it": "Completamente d’accordo"
+            },
+            {
+              "code": 2,
+              "en": "Somewhat agree",
+              "it": "Abbastanza d’accordo"
+            },
+            {
+              "code": 3,
+              "en": "Neither agree nor disagree",
+              "it": "Né d’accordo né in disaccordo"
+            },
+            {
+              "code": 4,
+              "en": "Somewhat disagree",
+              "it": "Abbastanza in disaccordo"
+            },
+            {
+              "code": 5,
+              "en": "Strongly disagree",
+              "it": "Completamente in disaccordo"
+            }
+          ],
+          "items": [
+            {
+              "code": "A1",
+              "en": "I invest a lot of time in staying up to date on new make-up trends",
+              "it": "Dedico molto tempo a tenermi aggiornata/o sulle nuove tendenze del make-up"
+            },
+            {
+              "code": "A2",
+              "en": "I like playing with make-up and experimenting with new styles",
+              "it": "Mi piace giocare con il make-up e sperimentare nuovi stili"
+            },
+            {
+              "code": "A3",
+              "en": "I am attracted to the brands of influencers/celebrities/make-up artists (e.g. Fenty Beauty by Rihanna)",
+              "it": "Sono attratta/o dai brand di influencer/celebrità/make-up artist (ad es. Fenty Beauty by Rihanna)"
+            },
+            {
+              "code": "A4",
+              "en": "I try to dedicate the minimum time necessary to make-up",
+              "it": "Cerco di dedicare al make-up il tempo minimo indispensabile"
+            },
+            {
+              "code": "A5",
+              "en": "I think there are too many products on the market, and I often feel disoriented and unsure about what to buy",
+              "it": "Penso che sul mercato ci siano troppi prodotti e spesso mi sento disorientata/o e incerta/o su cosa comprare"
+            },
+            {
+              "code": "A6",
+              "en": "The cheaper the product, the better",
+              "it": "Meno costa il prodotto, meglio è"
+            },
+            {
+              "code": "A7",
+              "en": "It’s rare that I change the products/brands I feel comfortable with",
+              "it": "Cambio raramente i prodotti/brand con cui mi trovo bene"
+            },
+            {
+              "code": "A8",
+              "en": "When I look for a new product, it is usually to meet a specific need",
+              "it": "Quando cerco un nuovo prodotto, di solito è per soddisfare un’esigenza specifica"
+            },
+            {
+              "code": "A9",
+              "en": "What matters most in a product is its performance",
+              "it": "Ciò che conta di più in un prodotto è la sua performance"
+            },
+            {
+              "code": "TRAP",
+              "en": "If you are reading this, answer “Strongly agree” to this question",
+              "it": "Se stai leggendo questa frase, rispondi “Completamente d’accordo”"
+            },
+            {
+              "code": "A10",
+              "en": "Luxury and high-end brands are synonymous with quality (e.g. Dior, Chanel, Louboutin, MAC, Make Up For Ever, Sisley)",
+              "it": "I brand di lusso e di fascia alta sono sinonimo di qualità (ad es. Dior, Chanel, Louboutin, MAC, Make Up For Ever, Sisley)"
+            },
+            {
+              "code": "A11",
+              "en": "It is very important to me to always look my best",
+              "it": "Per me è molto importante essere sempre al meglio"
+            },
+            {
+              "code": "A12",
+              "en": "I am willing to spend a significant part of my disposable income on make-up",
+              "it": "Sono disposta/o a spendere in make-up una parte significativa del mio reddito disponibile"
+            },
+            {
+              "code": "A13",
+              "en": "I am attracted to ingredients from the world of botany or traditional medicine",
+              "it": "Sono attratta/o dagli ingredienti del mondo della botanica o della medicina tradizionale"
+            },
+            {
+              "code": "A14",
+              "en": "I am generally attracted to products that combine science and tradition",
+              "it": "In generale sono attratta/o dai prodotti che uniscono scienza e tradizione"
+            },
+            {
+              "code": "A15",
+              "en": "The values supported by the brand (e.g. cruelty-free, vegan, transparency, inclusiveness) play an important role in my purchasing choices",
+              "it": "I valori sostenuti dal brand (ad es. cruelty-free, vegan, trasparenza, inclusività) hanno un ruolo importante nelle mie scelte d’acquisto"
+            },
+            {
+              "code": "A16",
+              "en": "The story (and motivations) behind the brand and its founder(s) is important to me",
+              "it": "La storia (e le motivazioni) del brand e dei suoi fondatori è importante per me"
+            },
+            {
+              "code": "A17",
+              "en": "I usually spend a lot of time figuring out if a product is right for me and my skin",
+              "it": "Di solito dedico molto tempo a capire se un prodotto è adatto a me e alla mia pelle"
+            },
+            {
+              "code": "A18",
+              "en": "I take care of myself (sport, yoga, nutrition, etc.) and I think it also reflects on my external beauty",
+              "it": "Mi prendo cura di me (sport, yoga, alimentazione, ecc.) e penso che questo si rifletta anche sulla mia bellezza esteriore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choices",
+      "title": {
+        "en": "How you choose",
+        "it": "Come scegli"
+      },
+      "questions": [
+        {
+          "id": "Q14",
+          "type": "multi",
+          "text": {
+            "en": "Select the answer(s) that best suit you. When I buy a new make-up product, I usually lean towards",
+            "it": "Seleziona la risposta o le risposte che ti descrivono meglio. Quando compro un nuovo prodotto make-up, di solito mi oriento verso:"
+          },
+          "noneCode": 15,
+          "options": [
+            {
+              "code": 1,
+              "en": "New, original, innovative products (e.g. new formats, new applicators, etc.)",
+              "it": "Prodotti nuovi, originali, innovativi (ad es. nuovi formati, nuovi applicatori, ecc.)"
+            },
+            {
+              "code": 2,
+              "en": "Popular products on social media (TikTok, Instagram, YouTube)",
+              "it": "Prodotti popolari sui social media (TikTok, Instagram, YouTube)"
+            },
+            {
+              "code": 3,
+              "en": "Unique colours and effects",
+              "it": "Colori ed effetti unici"
+            },
+            {
+              "code": 4,
+              "en": "Inexpensive/budget-friendly products",
+              "it": "Prodotti economici/convenienti"
+            },
+            {
+              "code": 5,
+              "en": "Basic products",
+              "it": "Prodotti basic"
+            },
+            {
+              "code": 6,
+              "en": "Products with a specific function (e.g. covering dark circles, acne, discolouration, etc.)",
+              "it": "Prodotti con una funzione specifica (ad es. coprire occhiaie, acne, discromie, ecc.)"
+            },
+            {
+              "code": 7,
+              "en": "‘Clean’/natural/organic products",
+              "it": "Prodotti “clean”/naturali/biologici"
+            },
+            {
+              "code": 8,
+              "en": "Premium/luxury brands (e.g. MAC, Make Up For Ever, Hermès, etc.)",
+              "it": "Brand premium/di lusso (ad es. MAC, Make Up For Ever, Hermès, ecc.)"
+            },
+            {
+              "code": 9,
+              "en": "Products inspired by the world of botany and/or ingredients from local traditions",
+              "it": "Prodotti ispirati al mondo della botanica e/o a ingredienti delle tradizioni locali"
+            },
+            {
+              "code": 10,
+              "en": "Iconic/best-selling products",
+              "it": "Prodotti iconici/best seller"
+            },
+            {
+              "code": 11,
+              "en": "Products recommended by experts (dermatologists, make-up artists, etc.)",
+              "it": "Prodotti consigliati da esperti (dermatologi, make-up artist, ecc.)"
+            },
+            {
+              "code": 12,
+              "en": "Products with attractive packaging",
+              "it": "Prodotti con un packaging accattivante"
+            },
+            {
+              "code": 13,
+              "en": "What I know/think suits me",
+              "it": "Ciò che conosco/penso che mi stia bene"
+            },
+            {
+              "code": 14,
+              "en": "Multiple uses & ease of use",
+              "it": "Usi multipli e facilità d’uso"
+            },
+            {
+              "code": 15,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ],
+          "max": 3
+        },
+        {
+          "id": "Q15",
+          "type": "multi",
+          "text": {
+            "en": "In addition to the colour/final effect, what are the most important characteristics that you evaluate before purchasing a product?",
+            "it": "Oltre al colore/effetto finale, quali sono le caratteristiche più importanti che valuti prima di acquistare un prodotto?"
+          },
+          "noneCode": 14,
+          "options": [
+            {
+              "code": 1,
+              "en": "The ingredients",
+              "it": "Gli ingredienti"
+            },
+            {
+              "code": 2,
+              "en": "How long it lasts/its performance",
+              "it": "Quanto dura/la sua performance"
+            },
+            {
+              "code": 3,
+              "en": "The history and values supported by the brand",
+              "it": "La storia e i valori sostenuti dal brand"
+            },
+            {
+              "code": 4,
+              "en": "The impact on the environment, animals and communities",
+              "it": "L’impatto su ambiente, animali e comunità"
+            },
+            {
+              "code": 5,
+              "en": "The versatility",
+              "it": "La versatilità"
+            },
+            {
+              "code": 6,
+              "en": "The brand’s reputation for high quality",
+              "it": "La reputazione di alta qualità del brand"
+            },
+            {
+              "code": 7,
+              "en": "The price",
+              "it": "Il prezzo"
+            },
+            {
+              "code": 8,
+              "en": "The ease of application",
+              "it": "La facilità di applicazione"
+            },
+            {
+              "code": 9,
+              "en": "Whether it respects and protects my skin",
+              "it": "Il fatto che rispetti e protegga la mia pelle"
+            },
+            {
+              "code": 10,
+              "en": "The existence of clinical tests or scientific evidence to support the claims",
+              "it": "L’esistenza di test clinici o evidenze scientifiche a supporto dei claim"
+            },
+            {
+              "code": 11,
+              "en": "The ‘Made in’ (where the product was made)",
+              "it": "Il “Made in” (dove è stato prodotto)"
+            },
+            {
+              "code": 12,
+              "en": "The comfort/feeling of lightness on the skin",
+              "it": "Il comfort/la sensazione di leggerezza sulla pelle"
+            },
+            {
+              "code": 13,
+              "en": "The aesthetics of the packaging",
+              "it": "L’estetica del packaging"
+            },
+            {
+              "code": 14,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ],
+          "max": 3
+        },
+        {
+          "id": "Q16",
+          "type": "multi",
+          "text": {
+            "en": "Which brands do you tend to use the most?",
+            "it": "Quali brand tendi a usare di più?"
+          },
+          "noneCode": 7,
+          "options": [
+            {
+              "code": 1,
+              "en": "Budget-friendly/mass brands",
+              "it": "Brand economici/di largo consumo"
+            },
+            {
+              "code": 2,
+              "en": "Historic brands or large groups",
+              "it": "Brand storici o grandi gruppi"
+            },
+            {
+              "code": 3,
+              "en": "Premium/luxury",
+              "it": "Premium/lusso"
+            },
+            {
+              "code": 4,
+              "en": "Brands that support ethical causes and projects aligned with my values (e.g. clean, organic, cruelty-free, sustainability, etc.)",
+              "it": "Brand che sostengono cause e progetti etici in linea con i miei valori (ad es. clean, biologico, cruelty-free, sostenibilità, ecc.)"
+            },
+            {
+              "code": 5,
+              "en": "Brands developed/recommended by celebrities/influencers",
+              "it": "Brand creati/consigliati da celebrità/influencer"
+            },
+            {
+              "code": 6,
+              "en": "Indie brands (small independent brands, often digital, not belonging to large groups, e.g. Glossier, Juvia’s Place, Zoeva)",
+              "it": "Brand indie (piccoli brand indipendenti, spesso digitali, che non appartengono a grandi gruppi, ad es. Glossier, Juvia’s Place, Zoeva)"
+            },
+            {
+              "code": 7,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ],
+          "max": 3
+        },
+        {
+          "id": "Q17",
+          "type": "multi",
+          "text": {
+            "en": "In particular, what do you evaluate in the ingredients of a product?",
+            "it": "In particolare, cosa valuti negli ingredienti di un prodotto?"
+          },
+          "noneCode": 9,
+          "options": [
+            {
+              "code": 1,
+              "en": "The naturality of the ingredients (e.g. butters, natural oils, etc.)",
+              "it": "La naturalità degli ingredienti (ad es. burri, oli naturali, ecc.)"
+            },
+            {
+              "code": 2,
+              "en": "The presence of active and functional ingredients (e.g. hyaluronic acid, retinol, vitamin C…)",
+              "it": "La presenza di ingredienti attivi e funzionali (ad es. acido ialuronico, retinolo, vitamina C…)"
+            },
+            {
+              "code": 3,
+              "en": "Absence of allergens and/or ingredients that are potentially irritating to the skin (e.g. parabens, aluminium, etc.)",
+              "it": "L’assenza di allergeni e/o di ingredienti potenzialmente irritanti per la pelle (ad es. parabeni, alluminio, ecc.)"
+            },
+            {
+              "code": 4,
+              "en": "The absence of ingredients that are harmful to the environment, animals or communities",
+              "it": "L’assenza di ingredienti dannosi per l’ambiente, gli animali o le comunità"
+            },
+            {
+              "code": 5,
+              "en": "The presence of ingredients from the world of botany or local traditions/cultures",
+              "it": "La presenza di ingredienti del mondo della botanica o delle tradizioni/culture locali"
+            },
+            {
+              "code": 6,
+              "en": "The presence of high-performance ingredients",
+              "it": "La presenza di ingredienti ad alte prestazioni"
+            },
+            {
+              "code": 7,
+              "en": "The quantity of ingredients",
+              "it": "La quantità di ingredienti"
+            },
+            {
+              "code": 8,
+              "en": "Whether the ingredients are organic",
+              "it": "Il fatto che gli ingredienti siano biologici"
+            },
+            {
+              "code": 9,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ],
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "title": {
+        "en": "Your make-up profile",
+        "it": "Il tuo profilo make-up"
+      },
+      "questions": [
+        {
+          "id": "Q18",
+          "type": "single",
+          "text": {
+            "en": "How would you describe your level of knowledge and experience with makeup?",
+            "it": "Come descriveresti il tuo livello di conoscenza ed esperienza con il make-up?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Beginner – I have limited knowledge and use only a few basic products.",
+              "it": "Principiante – Ho conoscenze limitate e uso solo pochi prodotti di base."
+            },
+            {
+              "code": 2,
+              "en": "Casual User – I use makeup regularly but have limited technical knowledge.",
+              "it": "Utente non esperta/o – Uso il make-up regolarmente, ma ho conoscenze tecniche limitate."
+            },
+            {
+              "code": 3,
+              "en": "Beauty Enthusiast – I am passionate about beauty, follow trends and enjoy discovering and trying new products.",
+              "it": "Appassionata/o di beauty – Il beauty è una mia passione, seguo i trend e mi piace scoprire e provare nuovi prodotti."
+            },
+            {
+              "code": 4,
+              "en": "Advanced / Expert User – I have extensive knowledge of products, textures, application techniques and trends.",
+              "it": "Utente avanzata/o / esperta/o – Conosco a fondo prodotti, texture, tecniche di applicazione e trend."
+            },
+            {
+              "code": 5,
+              "en": "Beauty Professional – I work or have professional experience in the beauty/cosmetics industry.",
+              "it": "Professionista del beauty – Lavoro o ho esperienza professionale nel settore beauty/cosmetico."
+            }
+          ]
+        },
+        {
+          "id": "Q19",
+          "type": "single",
+          "text": {
+            "en": "How would you describe your usual makeup routine?",
+            "it": "Come descriveresti la tua routine di make-up abituale?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "Minimal – I use only 1–2 essential products",
+              "it": "Minima – Uso solo 1–2 prodotti essenziali"
+            },
+            {
+              "code": 2,
+              "en": "Simple – I use a few products for an easy everyday look",
+              "it": "Semplice – Uso pochi prodotti per un look quotidiano facile"
+            },
+            {
+              "code": 3,
+              "en": "Complete – I use several products across face, eyes and/or lips",
+              "it": "Completa – Uso diversi prodotti per viso, occhi e/o labbra"
+            },
+            {
+              "code": 4,
+              "en": "Advanced / Multi-step – I use multiple products, layers and techniques",
+              "it": "Avanzata / in più passaggi – Uso più prodotti, strati e tecniche"
+            },
+            {
+              "code": 5,
+              "en": "It depends on the occasion",
+              "it": "Dipende dall’occasione"
+            }
+          ]
+        },
+        {
+          "id": "Q20",
+          "type": "single",
+          "text": {
+            "en": "Approximately how many makeup products do you normally use in one makeup routine?",
+            "it": "Quanti prodotti make-up usi di solito, più o meno, in una routine?"
+          },
+          "options": [
+            {
+              "code": 1,
+              "en": "1-2",
+              "it": "1–2"
+            },
+            {
+              "code": 2,
+              "en": "3-5",
+              "it": "3–5"
+            },
+            {
+              "code": 3,
+              "en": "6-8",
+              "it": "6–8"
+            },
+            {
+              "code": 4,
+              "en": "9-12",
+              "it": "9–12"
+            },
+            {
+              "code": 5,
+              "en": "More than 12",
+              "it": "Più di 12"
+            }
+          ]
+        },
+        {
+          "id": "Q21",
+          "type": "multi",
+          "text": {
+            "en": "Which makeup categories do you regularly use?",
+            "it": "Quali categorie di make-up usi regolarmente?"
+          },
+          "noneCode": 16,
+          "options": [
+            {
+              "code": 1,
+              "en": "Face Primer",
+              "it": "Primer viso"
+            },
+            {
+              "code": 2,
+              "en": "Foundation / Skin Tint",
+              "it": "Fondotinta / skin tint"
+            },
+            {
+              "code": 3,
+              "en": "Concealer",
+              "it": "Correttore"
+            },
+            {
+              "code": 4,
+              "en": "Powder",
+              "it": "Cipria"
+            },
+            {
+              "code": 5,
+              "en": "Blush",
+              "it": "Blush"
+            },
+            {
+              "code": 6,
+              "en": "Bronzer / Contour",
+              "it": "Bronzer / contouring"
+            },
+            {
+              "code": 7,
+              "en": "Highlighter",
+              "it": "Illuminante"
+            },
+            {
+              "code": 8,
+              "en": "Eyeshadow",
+              "it": "Ombretto"
+            },
+            {
+              "code": 9,
+              "en": "Eye Pencil / Eyeliner",
+              "it": "Matita occhi / eyeliner"
+            },
+            {
+              "code": 10,
+              "en": "Mascara",
+              "it": "Mascara"
+            },
+            {
+              "code": 11,
+              "en": "Brow Products",
+              "it": "Prodotti per sopracciglia"
+            },
+            {
+              "code": 12,
+              "en": "Lipstick",
+              "it": "Rossetto"
+            },
+            {
+              "code": 13,
+              "en": "Liquid Lipstick",
+              "it": "Rossetto liquido"
+            },
+            {
+              "code": 14,
+              "en": "Lip Gloss / Lip Oil",
+              "it": "Lip gloss / olio labbra"
+            },
+            {
+              "code": 15,
+              "en": "Lip Pencil",
+              "it": "Matita labbra"
+            },
+            {
+              "code": 16,
+              "en": "None of the above",
+              "it": "Nessuna delle precedenti"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

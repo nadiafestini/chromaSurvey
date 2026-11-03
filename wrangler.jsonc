@@ -1,0 +1,33 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "chromasurvey",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-15",
+  "compatibility_flags": ["nodejs_compat"],
+  // Il Worker gestisce anche i file statici, così i security header valgono ovunque.
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "chromasurvey",
+      // Da sostituire con l'ID restituito da "wrangler d1 create" (vedi docs/GUIDA_CLOUDFLARE.md).
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Da attivare quando il dominio mittente è configurato in Cloudflare Email Service.
+  // "send_email": [{ "name": "EMAIL" }],
+  "vars": {
+    "APP_ORIGIN": "https://SOSTITUIRE.example.com",
+    "ENTRA_TENANT_ID": "PLACEHOLDER_TENANT_ID",
+    "ENTRA_CLIENT_ID": "PLACEHOLDER_CLIENT_ID",
+    // Placeholder al posto di itchr_mai_users finché non è definito il gruppo.
+    "ENTRA_ADMIN_GROUP_ID": "PLACEHOLDER_ADMIN_GROUP",
+    "ADMIN_EMAILS": "",
+    "INTERNAL_DOMAINS": "chromavis.com",
+    "TURNSTILE_SITE_KEY": "PLACEHOLDER_TURNSTILE_SITE_KEY",
+    "EMAIL_FROM": "noreply@SOSTITUIRE.example.com",
+    "EMAIL_PROVIDER": "cloudflare"
+  }
+  // Secret da impostare con "wrangler secret put": ENTRA_CLIENT_SECRET, OTP_PEPPER, TURNSTILE_SECRET_KEY
+}
